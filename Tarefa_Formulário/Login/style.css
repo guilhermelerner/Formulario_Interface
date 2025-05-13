@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2455c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 2em;
+    width: 100%;
+    position: relative;
+    box-shadow: 
+        -3px -3px 5px rgba(70, 67, 67, 0.8),
+        3px 3px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 1.5em;
+    color: #2455c0;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.input-line {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3em;
+}
+
+.input-line input {
+    width: 100%;
+    padding: 0.5em 0;
+    border: none;
+    font-size: 1em;
+    background: transparent;
+}
+
+.input-line input:focus {
+    outline: none;
+}
+
+.form-footer {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 0.7em 1.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+.btn-login {
+    background-color: #2455c0;
+    color: white;
+    border: 1px solid #2455c0;
+}
+
+.btn-cadastro {
+    background-color: transparent;
+    color: #2455c0;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-cadastro:hover {
+    background-color: #2455c0;
+    color: white;
+}
+
+.esqueci-senha {
+    color: #b71ec5;
+    font-size: 0.6em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.esqueci-senha:hover {
+    text-decoration: underline;
+}
